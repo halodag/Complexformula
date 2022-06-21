@@ -1,0 +1,4 @@
+
+IF( MONTH( NOW() ) = 12,
+  DATE( YEAR( NOW() ), 12, 31 ),
+  DATE( YEAR( NOW() ), MONTH( NOW() ) + 1, 1) - 1

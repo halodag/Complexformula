@@ -1,0 +1,9 @@
+Contribution Percentage
+
+ExpectedRevenue /100000.
+
+ 
+
+Contribution_Level
+
+IF( Contribution_Percentage__c <= 0.10, "Low", IF( Contribution_Percentage__c > 0.10 && Contribution_Percentage__c < 0.40, "Medium", "High")).
